@@ -1,4 +1,5 @@
-# Classic Chess 
+# ![icon](https://user-images.githubusercontent.com/6971421/28007530-a2f98ca8-6508-11e7-809e-e90eb0c39756.png)  Classic Chess 
+
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/b5fe0c3e9cd34ed58b8da9a9de53fcf9)](https://www.codacy.com/app/OlgaKuklina/Chess?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=OlgaKuklina/Chess&amp;utm_campaign=Badge_Grade)
 [![Build Status](https://travis-ci.org/OlgaKuklina/Chess.svg?branch=master)](https://travis-ci.org/OlgaKuklina/Chess)
 
