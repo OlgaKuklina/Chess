@@ -5,7 +5,7 @@
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    tools:context="com.oklab.chess.MainActivity">
+    tools:context="com.oklab.chess.activities.MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -50,7 +50,7 @@
                 android:layout_height="45dp"
                 android:background="@drawable/background_light"
                 android:scaleType="fitCenter"
-                android:src="@drawable/king2" />
+                android:src="@drawable/queen2" />
 
             <ImageButton
                 android:id="@+id/ImageButtonE1"
@@ -58,7 +58,7 @@
                 android:layout_height="45dp"
                 android:background="@drawable/background_dark"
                 android:scaleType="fitCenter"
-                android:src="@drawable/queen2" />
+                android:src="@drawable/king2" />
 
             <ImageButton
                 android:id="@+id/ImageButtonF1"
@@ -565,16 +565,67 @@
             android:layout_height="0dp"
             android:layout_weight="1">
 
-            <TextView
-                android:id="@+id/message"
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="45dp"
-                android:layout_marginBottom="@dimen/activity_vertical_margin"
-                android:layout_marginLeft="@dimen/activity_horizontal_margin"
-                android:layout_marginRight="@dimen/activity_horizontal_margin"
-                android:layout_marginTop="@dimen/activity_vertical_margin"
-                android:text="@string/title_home" />
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
 
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/b1" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="15dp"
+                            android:gravity="center_vertical"
+                            android:text="Remi J" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/bishop2" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="15dp"
+                            android:gravity="center_vertical"
+                            android:text="Rian G" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/message"
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp"
+                    android:layout_marginBottom="@dimen/activity_vertical_margin"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:layout_marginTop="@dimen/activity_vertical_margin"
+                    android:gravity="center_horizontal"
+                    android:text="Time 00h 00m : 00h 07m" />
+            </LinearLayout>
         </FrameLayout>
 
         <android.support.design.widget.BottomNavigationView
