@@ -6,10 +6,6 @@
 
 ![chess](https://user-images.githubusercontent.com/6971421/27996432-b6c0ad2e-6496-11e7-9764-9ae3b364d382.png)
 
-General Chess Game Design
-
-![untitled-2](https://user-images.githubusercontent.com/6971421/33405830-cd71ea80-d51e-11e7-91f3-ec8b6327d50e.jpg)
-
 
 License
 
